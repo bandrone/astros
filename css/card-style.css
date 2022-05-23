@@ -27,15 +27,18 @@
 }
 
 .type-beast {
-    --card-color-type: #FB7B2F;
+    --card-color-type: rgb(219, 105, 38);
+    --card-icon: url('../img/icon/beast-icon.png');
 }
 
 .type-gear {
-    --card-color-type: #2FB8B0;
+    --card-color-type: rgb(36, 164, 156);
+    --card-icon: url('../img/icon/gear-icon.png');
 }
 
 .type-myth {
-    --card-color-type: #F268DC;
+    --card-color-type: rgb(206, 83, 187);
+    --card-icon: url('../img/icon/myth-icon.png');
 }
 
 .filter-panel {
@@ -46,7 +49,6 @@
 
     width: 100%;
     margin-bottom: 10px;
-
 }
 
 .filter-panel>button {
@@ -93,9 +95,13 @@
     background-color: var(--card-color-bg);
 }
 
+a.card-link:link,
+a.card-link:visited {
+    color: transparent;
+}
+
 .card-link {
     color: transparent;
-
     position: absolute;
     inset: 0;
     z-index: 10;
@@ -152,13 +158,12 @@
 }
 
 .card-type {
+    background-image: var(--card-icon);
+    background-color: var(--card-color-type);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
 
-    color: var(--card-color-type);
-
-    background-color: var(--card-color-bg);
-
-    font-size: 18px !important;
-    line-height: 24px !important;
     text-align: center;
 
     width: var(--card-icon-size);
@@ -186,7 +191,7 @@
 }
 
 .card-abbr {
-    font-size: 0.75rem;
+    font-size: 0.75em;
     font-variant: small-caps;
 
     color: var(--card-color-type);
@@ -196,7 +201,7 @@
 }
 
 .card-name {
-    font-size: 1rem;
+    font-size: 1em;
 
     color: #fff;
 
@@ -204,7 +209,7 @@
     --card-label-top: 170px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     :root {
         --card-size-w: 210px;
         --card-size-h: 280px;
@@ -212,6 +217,12 @@
         --card-icon-size: 35px;
 
         --filter-btn-h: 30px;
+    }
+
+    .collection-container {
+        grid-gap: 20px;
+        font-size: 22px;
+        max-width: 1400px;
     }
 
     .card-abbr {
@@ -223,4 +234,5 @@
         --card-label-h: 30px;
         --card-label-top: 240px;
     }
+
 }

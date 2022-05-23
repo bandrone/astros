@@ -5,6 +5,7 @@
     --color-hover: rgb(0, 27, 41);
     --color-title: rgb(239, 222, 71);
     --color-text: rgb(255, 232, 203);
+    --color-link: rgb(242, 156, 0);
 
     --size-header: 48px;
 
@@ -23,19 +24,20 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     font-family: 'EB Garamond', serif;
 
     color: var(--color-text);
     background-color: var(--color-bg);
     background-image: var(--grad-bg);
-    min-height: 100vh;
-
-    margin-bottom: 100px;
 }
 
-nav a:link,
-nav a:visited {
-    color: var(--color-text);
+a:link,
+a:visited {
+    color: var(--color-link);
 }
 
 header {
@@ -59,10 +61,11 @@ main::before {
 }
 
 main {
+    flex: 1;
     width: 90%;
     max-width: 1550px;
 
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .logo {
@@ -85,12 +88,12 @@ main {
     width: var(--size-header);
     height: var(--size-header);
 
-    color: var(--color-text);
+    color: var(--color-link);
     background-color: transparent;
 }
 
 #nav-button:hover {
-    text-shadow: 0 0 5px var(--color-text);
+    text-shadow: 0 0 5px var(--color-link);
 }
 
 .nav-top ul {
@@ -119,7 +122,7 @@ main {
 }
 
 .nav-top li:hover {
-    text-shadow: 0 0 5px var(--color-text);
+    text-shadow: 0 0 5px var(--color-link);
 }
 
 h1 {
@@ -177,7 +180,12 @@ h3 {
     width: 100%;
 }
 
-.col-third img {
+.col-sample {
+    display: flex;
+    justify-content: center;
+}
+
+.col-sample img {
     max-width: 300px;
     max-height: 300px;
     margin: 0 auto;
@@ -188,13 +196,22 @@ h3 {
     width: 100%;
 }
 
-.col-sample {
-    display: flex;
-    justify-content: center;
-}
-
 .col-desc {
     margin-top: -20px;
+}
+
+.col-desc h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.col-desc img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 3px;
+    object-fit: contain;
+    background-color: transparent;
 }
 
 .constellations a:link,
@@ -204,6 +221,34 @@ h3 {
 
     text-align: center;
     margin: 15px auto;
+}
+
+.text-wall {
+    max-width: 800px;
+}
+
+p {
+    margin-bottom: 0.3em;
+    text-indent: 2em;
+}
+
+address ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-style: normal;
+
+    justify-content: center;
+    column-gap: 20px;
+}
+
+footer {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+
+    background-color: var(--color-bg);
 }
 
 @media screen and (max-width: 599px) {
@@ -248,5 +293,9 @@ h3 {
 @media screen and (min-width: 1200px) {
     :root {
         font-size: 22px;
+    }
+
+    .title {
+        height: 640px;
     }
 }

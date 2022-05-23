@@ -7,3 +7,5 @@ document.getElementById('nav-button').addEventListener('click', function () {
         navContent.classList.add("hidden");
     }
 });
+
+document.getElementById('footer-year').innerHTML = new Date().getFullYear();

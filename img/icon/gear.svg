@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333333 4.2333333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="gear.svg"
+   inkscape:export-filename="D:\Web Projects\Astros\img\icon\gear-title.png"
+   inkscape:export-xdpi="240"
+   inkscape:export-ydpi="240"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="true"
+     inkscape:zoom="21.039527"
+     inkscape:cx="6.5828476"
+     inkscape:cy="10.218861"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="2.4722005,0.31419271"
+       end_point="2.4722005,1.3559895"
+       center_point="2.4722005,0.8350911"
+       id="path-effect1324"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path939"
+       style="fill:#efde47;fill-opacity:1.0;stroke-width:0.999999;stroke-linecap:round;stroke-linejoin:round"
+       d="M 6.65625 0.875 L 5.7539062 3.2226562 L 5.0195312 3.6796875 L 2.5039062 3.2773438 L 1.1601562 5.6054688 L 3.0039062 7.7851562 L 3.0292969 8.203125 L 1.1640625 10.402344 L 2.5078125 12.730469 L 5.5800781 12.058594 L 5.7089844 12.126953 L 6.6640625 15.125 L 9.3515625 15.125 L 10.306641 12.119141 L 10.431641 12.052734 L 13.503906 12.722656 L 14.847656 10.394531 L 12.970703 8.1914062 L 12.996094 7.7832031 L 14.84375 5.5976562 L 13.5 3.2695312 L 10.980469 3.671875 L 10.244141 3.21875 L 9.34375 0.875 L 6.65625 0.875 z M 8.0039062 4.8457031 A 3.1536317 3.1536317 0 0 1 11.158203 8 A 3.1536317 3.1536317 0 0 1 8.0039062 11.154297 A 3.1536317 3.1536317 0 0 1 4.8496094 8 A 3.1536317 3.1536317 0 0 1 8.0039062 4.8457031 z "
+       transform="scale(0.26458333)"
+       inkscape:export-filename="D:\Web Projects\Astros\img\icon\path939.png"
+       inkscape:export-xdpi="240"
+       inkscape:export-ydpi="240" />
+  </g>
+</svg>
